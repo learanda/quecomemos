@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué comemos?</title>
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="css/style_index.css">
+</head>
+
+<body>
+    <!-- ............. INICIO NAVBAR ............. -->
+    <div class="navbar-fixed scrollspy" id="home">
+        <nav class="grey lighten-3">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo right blue-text text-darken-3">¿Qué comemos?</a>
+
+                <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                    <i class="material-icons blue-text text-darken-3">menu</i>
+                </a>
+
+                <ul class="left hide-on-med-and-down">
+                    <li><a href="#home" class="indigo-text text-darken-3">Home</a></li>
+                    <li><a href="#menuquecomemos" class="indigo-text text-darken-3">Menú</a></li>
+                    <li><a href="#contactanos" class="indigo-text text-darken-3">Contactanos</a></li>
+                    <li><a href="#ubicacion" class="indigo-text text-darken-3">¿Dónde estamos?</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav indigo darken-5" id="menu-responsive">
+        <li><a href="#home" class="yellow-text">Home</a></li>
+        <li><a href="#menuquecomemos" class="yellow-text">Menú</a></li>
+        <li><a href="#contactanos" class="yellow-text">Contactanos</a></li>
+        <li><a href="#ubicacion" class="yellow-text">¿Dónde estamos?</a></li>
+    </ul>
+    <!-- ............. FIN NAVBAR ............. -->
+
+
+    <!-- ............. INICIO SLIDER ............. -->
+    <div class="row-fixed">
+        <div class="col s12">
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img src="https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            alt="" class="">
+                        <div class="caption center-align">
+                            <h4>Bienvenidos a</h4>
+                            <h3>¿Qué comemos?</h3>
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="https://images.pexels.com/photos/2271194/pexels-photo-2271194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            alt="">
+                        <div class="caption right-align white-text">
+                            <h4>¡Disfrutá!</h4>
+                            <h4>Calidad y precio</h4>
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="https://images.pexels.com/photos/3944312/pexels-photo-3944312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            alt="">
+                        <div class="caption left-align">
+                            <h4>Esperamos tu pedido para brindarte lo mejor</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ............. FIN SLIDER ............. -->
+
+
+    <!-- ............. INICIO SECCION MENU ............. -->
+    <div class="container-fixed section">
+        <h4 class="center scrollspy" id="menuquecomemos">Menú ¿Qué comemos?</h4>
+    </div>
+
+    <!-- INICIO CAROUSEL -->
+    <div class="carousel carousel-slider">
+        <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
+        <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
+        <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
+        <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+    </div>
+    <!-- FIN CAROUSEL -->
+
+    <!-- INICIO TABS IN CARDS MENU COMIDAS -->
+    <div class="col s12">
+        <div class="card">
+            <div class="card-content center">
+                <p class="teofrecemos">Te ofrecemos una amplia variedad de pizzas, empanadas, milanesas y papas elaborados con pruductos de excelente calidad</p>
+            </div>
+
+            <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width">
+                    <li class="tab"><a href="#pizzas" class="active">Pizzas</a></li>
+                    <li class="tab"><a href="#empanadas">Emapanadas</a></li>
+                    <li class="tab"><a href="#milanesas">Milanesas</a></li>
+                    <li class="tab"><a href="#papas">Papas</a></li>
+                </ul>
+            </div>
+
+            <div class="card-content-fixed white-text">
+                <div id="pizzas">
+                    <img src="img/pizzas.png" alt="" class="responsive-img">
+                </div>
+                <div id="empanadas">
+                    <img src="img/empanadas.png" alt="" class="responsive-img">
+                </div>
+                <div id="milanesas">
+                    <img src="img/milanesas.png" alt="" class="responsive-img">
+                </div>
+                <div id="papas">
+                    <img src="img/papas.png" alt="" class="responsive-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN TABS IN CARDS MENU COMIDAS -->
+
+
+    <!-- INICIO CARD PROMOS -->
+    <div class="col s12">
+        <div class="card">
+            <div class="card-content center">
+                <p class="promos">¡También tenemos promos y</p>
+                <p class="papascheddar">PAPAS CON CHEDDAR!</p>
+            </div>
+
+            <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width">
+                    <li class="tab"><a href="#promos" class="active">Promos</a></li>
+                    <li class="tab"><a href="#papascheddar">Papas con cheddar</a></li>
+                </ul>
+            </div>
+
+            <div class="card-content-fixed white-text">
+                <div id="promos">
+                    <img src="img/promos.png" alt="" class="responsive-img">
+                </div>
+                <div id="papascheddar">
+                    <img src="img/papascheddar.png" alt="" class="responsive-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN CARD PROMOS -->
+    <!-- ............. FIN SECCION MENU ............. -->
+
+
+
+
+    <!-- ............. INICIO SECCION CONTACTO ............. -->
+    <div class="container-fixed">
+        <h4 class="center grey lighten-3 scrollspy" id="contactanos">Contactanos</h4>
+        <div class="row center">
+            <div class="col s9 ">
+                <h4>11-3128-3745</h4>
+            </div>
+            <div class="col s3 ">
+                <img src="img/whatsapp.png" alt="" class="responsive-img">
+            </div>
+            <div class="section">
+                <h5 id="porwhatsapp">Por Whatsapp o</h5>
+                <h5>¡Llamanos y hace tu pedido!</h5>
+            </div>
+        </div>
+    </div>
+    <!-- ............. FIN SECCION CONTACTO ............. -->
+
+
+    <!-- ............. INICIO SECCION UBICACION ............. -->
+    <div class="container-fixed grey lighten-3">
+        <h4 class="center scrollspy" id="ubicacion">¿Dónde estamos?</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1637.939103217764!2d-58.641431442015474!3d-34.809005895101684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc4ab7c3730cf%3A0x34fac8ac5e739b8e!2sComercio%206601%2C%20B1763HVK%20Virrey%20del%20Pino%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1594876720686!5m2!1ses-419!2sar" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <!-- ............. FIN SECCION UBICACION ............. -->
+
+
+    <div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        /* NAVBAR */
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+
+        /* SLIDER */
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.slider');
+            var instances = M.Slider.init(elems, {
+                indicators: false,
+                //height:200,
+                duration: 1000,
+                interval: 2000
+            });
+        });
+
+        /* CAROUSEL */
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems, {
+                fullWidth: true,
+                indicators: true
+            });
+        });
+
+        /* TABS IN CARDS */
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.tabs');
+            var instances = M.Tabs.init(elems);
+        });
+
+        /* SCROLLSPY */
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.scrollspy');
+            var instances = M.ScrollSpy.init(elems,{
+                scrollOffset: 70     // el margen superior, no queda pegado arriba de todo por el section
+            });
+        });
+    </script>
+</body>
+
+</html>

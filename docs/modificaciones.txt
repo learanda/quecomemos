@@ -1,0 +1,10 @@
+- logo
+- fuentes, tamaños letra slider
+- footer
+- boton fijo whatsapp
+- direccion correcta local
+- fotos reales para carousel
+- tamaño, fuente letras de menu lateral
+- preloader
+- dias y horarios de atencion
+nuestro horario de atención es de Jueves a Martes de 11:00 a 14:30 y de 18:30 a 23:30 
