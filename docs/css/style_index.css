@@ -11,6 +11,28 @@
     background-size:100% auto;
     background-repeat: no-repeat;
 } */
+#logo{
+    margin: 6px 0 0 60px;
+}
+
+#textmenulateral{
+    font-size: x-large;
+    font-family: 'Indie Flower', cursive;
+}
+
+#bienvenida, #disfruta, #esperamos{
+    font-family: 'Dancing Script', cursive;
+    ont-family: 'Indie Flower', cursive;
+}
+#textbienvenidosa{
+    font-size: 2.7em;
+}
+#quecomemosbienvenida{
+    font-size: 5em;
+}
+#disfruta, #esperamos{
+    font-size: 3em;
+}
 
 #porwhatsapp{
     margin-top: 70px;
@@ -40,15 +62,41 @@
     font-family: 'Indie Flower', cursive;
     font-size: 2.5em;
 }
-
+#cardpromos{
+    margin-bottom: 0;
+}
 #contactanos, #ubicacion{
     font-size: 3em;
+    font-weight: bold;
 }
 
 #contactanos{
-    padding: 15px 0 15px 0;
+    padding: 20px 0 15px 0;
+    margin: 0;
+}
+#telwhats{
+    padding-top: 20px;
+}
+#telefono{
+    font-weight: bold;
+}
+#dias{
+    font-size: 2.5em;
+    margin: 0;
+}
+#horarios{
+    font-size: 1.5em;
+    margin: 0;
+    padding-bottom: 20px;
+}
+#atencion{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 40px;
 }
 
-#ubicacion{
-    padding-top: 20px;
+
+#footer{
+    padding: 2em;
 }

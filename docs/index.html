@@ -9,7 +9,9 @@
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&display=swap" rel="stylesheet">
+    
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -19,12 +21,14 @@
     <link rel="stylesheet" href="css/style_index.css">
 </head>
 
-<body>
+<body class="grey lighten-3">
     <!-- ............. INICIO NAVBAR ............. -->
     <div class="navbar-fixed scrollspy" id="home">
         <nav class="grey lighten-3">
             <div class="nav-wrapper container">
-                <a href="#" class="brand-logo right blue-text text-darken-3">¿Qué comemos?</a>
+                <a href="#" class="brand-logo right blue-text text-darken-3">
+                    <img src="img/quecomemos2small.png" alt="" class="responsive-img" id="logo">
+                </a>
 
                 <a href="#" data-target="menu-responsive" class="sidenav-trigger">
                     <i class="material-icons blue-text text-darken-3">menu</i>
@@ -41,10 +45,10 @@
     </div>
 
     <ul class="sidenav indigo darken-5" id="menu-responsive">
-        <li><a href="#home" class="yellow-text">Home</a></li>
-        <li><a href="#menuquecomemos" class="yellow-text">Menú</a></li>
-        <li><a href="#contactanos" class="yellow-text">Contactanos</a></li>
-        <li><a href="#ubicacion" class="yellow-text">¿Dónde estamos?</a></li>
+        <li><a href="#home" class="yellow-text" id="textmenulateral">Home</a></li>
+        <li><a href="#menuquecomemos" class="yellow-text" id="textmenulateral">Menú</a></li>
+        <li><a href="#contactanos" class="yellow-text" id="textmenulateral">Contactanos</a></li>
+        <li><a href="#ubicacion" class="yellow-text" id="textmenulateral">¿Dónde estamos?</a></li>
     </ul>
     <!-- ............. FIN NAVBAR ............. -->
 
@@ -57,9 +61,9 @@
                     <li>
                         <img src="https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                             alt="" class="">
-                        <div class="caption center-align">
-                            <h4>Bienvenidos a</h4>
-                            <h3>¿Qué comemos?</h3>
+                        <div class="caption center-align" id="bienvenida">
+                            <h3 id="textbienvenidosa">Bienvenidos a</h3>
+                            <h2 id="quecomemosbienvenida">¿Qué comemos?</h2>
                         </div>
                     </li>
 
@@ -67,8 +71,8 @@
                         <img src="https://images.pexels.com/photos/2271194/pexels-photo-2271194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                             alt="">
                         <div class="caption right-align white-text">
-                            <h4>¡Disfrutá!</h4>
-                            <h4>Calidad y precio</h4>
+                            <h4 id="disfruta">¡Disfrutá!</h4>
+                            <h4 id="disfruta">Calidad y precio</h4>
                         </div>
                     </li>
 
@@ -76,7 +80,7 @@
                         <img src="https://images.pexels.com/photos/3944312/pexels-photo-3944312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                             alt="">
                         <div class="caption left-align">
-                            <h4>Esperamos tu pedido para brindarte lo mejor</h4>
+                            <h4 id="esperamos">Esperamos tu pedido para brindarte lo mejor</h4>
                         </div>
                     </li>
                 </ul>
@@ -88,7 +92,7 @@
 
     <!-- ............. INICIO SECCION MENU ............. -->
     <div class="container-fixed section">
-        <h4 class="center scrollspy" id="menuquecomemos">Menú ¿Qué comemos?</h4>
+        <h4 class="center scrollspy " id="menuquecomemos">Menú ¿Qué comemos?</h4>
     </div>
 
     <!-- INICIO CAROUSEL -->
@@ -137,7 +141,7 @@
 
     <!-- INICIO CARD PROMOS -->
     <div class="col s12">
-        <div class="card">
+        <div class="card" id="cardpromos">
             <div class="card-content center">
                 <p class="promos">¡También tenemos promos y</p>
                 <p class="papascheddar">PAPAS CON CHEDDAR!</p>
@@ -169,9 +173,9 @@
     <!-- ............. INICIO SECCION CONTACTO ............. -->
     <div class="container-fixed">
         <h4 class="center grey lighten-3 scrollspy" id="contactanos">Contactanos</h4>
-        <div class="row center">
+        <div class="row center grey lighten-5" id="telwhats">
             <div class="col s9 ">
-                <h4>11-3128-3745</h4>
+                <h4 id="telefono">11-3128-3745</h4>
             </div>
             <div class="col s3 ">
                 <img src="img/whatsapp.png" alt="" class="responsive-img">
@@ -179,6 +183,9 @@
             <div class="section">
                 <h5 id="porwhatsapp">Por Whatsapp o</h5>
                 <h5>¡Llamanos y hace tu pedido!</h5>
+                <p id="atencion">Horarios de atención</p>
+                <p id="dias">Jueves a Martes</p>
+                <p id="horarios">de 11:00 a 14:30 y de 18:30 a 23:30</p>
             </div>
         </div>
     </div>
@@ -192,109 +199,116 @@
     </div>
     <!-- ............. FIN SECCION UBICACION ............. -->
 
-
-    <div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+    <!-- ............. INICIO FOOTER ............. -->
+    <div class="container-fixed center grey lighten-3" id="footer">
+        <span>Sitio desarrollado por </span><a href="https://ar.linkedin.com/in/leandro-gabriel-aranda-20156b59">Leandro Aranda</a>
+        <span>Desarrollador Web/Mobile</span>
     </div>
+    <!-- ............. FIN FOOTER ............. -->
+
+
+    <!-- <div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div> -->
 
 
     <!-- Compiled and minified JavaScript -->
@@ -314,7 +328,7 @@
                 indicators: false,
                 //height:200,
                 duration: 1000,
-                interval: 2000
+                interval: 3000
             });
         });
 
