@@ -1,2 +1,1 @@
 - direccion correcta local para el mapa
-- preloader
