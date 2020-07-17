@@ -60,10 +60,14 @@
     color: red;
 }
 
-#menuquecomemos, #ubicacion, #contactanos{
+#menuquecomemos, #ubicacion, #contactanos, #galeria{
     font-family: 'Dancing Script', cursive;
     font-family: 'Indie Flower', cursive;
     font-size: 2.5em;
+    font-weight: bold;
+}
+#galeria{
+    font-size: 3em;
 }
 #cardpromos{
     margin-bottom: 0;
