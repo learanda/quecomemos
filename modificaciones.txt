@@ -1,10 +1,2 @@
-- boton fijo whatsapp
-- direccion correcta local
-- fotos reales para carousel
-- tamaño, fuente letras de menu lateral
+- direccion correcta local para el mapa
 - preloader
-
-- ubicar carousel como seccion galeria de fotos y menu queda con los precios
-
-
-https://wa.me/1136971168
