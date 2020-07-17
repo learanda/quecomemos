@@ -25,6 +25,25 @@
 </head>
 
 <body class="grey lighten-3">
+    <!-- ............. INICIO PRELOADER .............
+    <div class="section center" id="circulo">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+     ..............  FIN PRELOADER .............. -->
+
+
     <!-- ............. INICIO NAVBAR ............. -->
     <div class="navbar-fixed scrollspy" id="home">
         <nav class="grey lighten-3">
@@ -353,6 +372,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <script>
+        /* PRELOADER
+        window.addEventListener('load', () => {
+
+        carga();
+
+        function carga() {
+            document.getElementById('circulo').className = 'hide';
+        }
+        }) */
+        
         /* NAVBAR */
         document.addEventListener('DOMContentLoaded', function () {
             var elems = document.querySelectorAll('.sidenav');
