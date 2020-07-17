@@ -1,1 +1,2 @@
 - direccion correcta local para el mapa
+- probar cambios de tamaño para imagenes carousel
