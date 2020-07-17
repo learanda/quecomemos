@@ -76,7 +76,13 @@
     font-size: 3em;
     font-weight: bold;
 }
-
+#direccion{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+iframe{
+    margin-top: 1.5em;
+}
 #contactanos{
     padding: 20px 0 15px 0;
     margin: 0;
